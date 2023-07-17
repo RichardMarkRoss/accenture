@@ -9,7 +9,6 @@ import Home from './scenes/home';
 
 function App() {
   const [isLoggedIn, setIsLoggedIn] = useState(false);
-  
   useEffect(() => {
     const userLoggedIn = isLoggedIn;
     setIsLoggedIn(userLoggedIn);
