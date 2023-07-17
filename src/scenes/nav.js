@@ -5,7 +5,7 @@ const Nav = () => {
     <nav className="navbar" role="navigation" aria-label="main navigation">
       <div className="navbar-brand">
         <a className="navbar-item" href="/">
-          Your Logo
+          Welcome
         </a>
 
         <a
@@ -27,28 +27,13 @@ const Nav = () => {
           <a className="navbar-item" href="/">
             Home
           </a>
-
-          <a className="navbar-item" href="/">
-            About
-          </a>
-
-          <a className="navbar-item" href="/">
-            Services
-          </a>
-
-          <a className="navbar-item" href="/">
-            Contact
-          </a>
         </div>
 
         <div className="navbar-end">
           <div className="navbar-item">
             <div className="buttons">
               <a className="button is-primary" href="/login">
-                Log in
-              </a>
-              <a className="button is-light" href="/signup">
-                Sign up
+                LogOut
               </a>
             </div>
           </div>

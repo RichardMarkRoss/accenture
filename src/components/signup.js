@@ -24,7 +24,7 @@ export default class SignUp extends Component {
         email,
         password
       };
-      axios.post('', data)
+      axios.post('https://localhost:7104/api/Users', data)
         .then(response => {
           // Handle the response from the API
           console.log(response.data); // or perform other actions based on the response

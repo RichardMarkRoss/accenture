@@ -19,7 +19,7 @@ const Login = () => {
       email,
       password
     };
-    axios.post('', data)
+    axios.post('https://localhost:7104/api/Users', data)
       .then(response => {
         // Handle the response from the API
         if (response.data.success) {

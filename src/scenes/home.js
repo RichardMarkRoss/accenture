@@ -6,7 +6,8 @@ const home = () => {
   return (
 
     <Box>
-        
+        <Nav/>
+         Welcome Home
     </Box>
   )
 }
