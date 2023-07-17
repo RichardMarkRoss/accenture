@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
 * {
   box-sizing: border-box;
 }
@@ -7,7 +7,7 @@ body {
   min-height: 100vh;
   display: flex;
   font-weight: 400;
-  font-family: "Fira Sans", sans-serif;
+  font-family: 'Inter', sans-serif; /* wasn't exactly sure how the download link to the inter file work so i called it from google */ 
 }
 
 h1,
@@ -19,7 +19,7 @@ h6,
 label,
 span {
   font-weight: 500;
-  font-family: "Fira Sans", sans-serif;
+  font-family: 'Inter', sans-serif;
 }
 
 body,
